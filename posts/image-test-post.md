@@ -8,4 +8,4 @@ tags:
 layout: layouts/post.njk
 
 ---
-![](/v1634670207/IMG_4734-2000-px_weuvlr.jpg)
+![](https://res.cloudinary.com/dylanabbott-com/image/upload/v1634670207/IMG_4734-2000-px_weuvlr.jpg)
