@@ -11,7 +11,7 @@ sections:
   match: "**/*"
 upload_dir: ''
 public_path: https://res.cloudinary.com/dylanabbott-com/image/upload
-front_matter_path: ''
+front_matter_path: ":filename:"
 use_front_matter_path: true
 file_template: ":filename:"
 build:
