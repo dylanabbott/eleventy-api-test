@@ -3,6 +3,7 @@ title: Testing
 description: Add image in front matter
 date: 2021-10-19T07:00:00Z
 tags:
+- Update
 - New York
 - Test
 - Cloudinary
