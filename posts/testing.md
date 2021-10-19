@@ -7,7 +7,7 @@ tags:
 - Test
 - Cloudinary
 layout: layouts/post.njk
-main_image: ''
+main_image: "/v1634682392/IMG_4682-2000-px_zjgacs.jpg"
 
 ---
 I took this picture isn't it great?
