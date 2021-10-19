@@ -10,6 +10,8 @@ templateClass: tmpl-post
 <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
 {%- endfor %}
 
+{%- if main_image %}<div><img src="{{ main_image }}" alt="Main Image"></div>{%- endif -%}
+
 {{ content | safe }}
 
 {%- if collections.posts %}
