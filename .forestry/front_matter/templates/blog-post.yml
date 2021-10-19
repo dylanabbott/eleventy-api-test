@@ -24,3 +24,4 @@ fields:
   label: Main Image
 pages:
 - posts/image-test-post.md
+- posts/testing.md
