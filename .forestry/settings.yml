@@ -9,7 +9,7 @@ sections:
   label: Posts
   create: all
   match: "**/*"
-upload_dir: https://res.cloudinary.com/dylanabbott-com/image/upload
+upload_dir: ''
 public_path: https://res.cloudinary.com/dylanabbott-com/image/upload
 front_matter_path: ''
 use_front_matter_path: true
