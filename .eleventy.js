@@ -60,6 +60,15 @@ module.exports = function(eleventyConfig) {
     return filterTagList([...tagSet]);
   });
 
+  // Add Cloudinary support
+  eleventyConfig.cloudinaryCloudName = "dylanabbott-com";
+  eleventyConfig.addShortcode(
+    "cloudinaryImage",
+    function (path, transforms, alt) {
+      return `<img src="https://res.cloudinary.com/${eleventyConfig.cloudinaryCloudName}/${transforms}/${path}" alt="${alt}">`;
+    }
+  );
+
   // Copy the `img` and `css` folders to the output
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("css");
