@@ -10,7 +10,7 @@ templateClass: tmpl-post
 <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
 {%- endfor %}
 
-{%- if main_image %}<div><img src="{{ main_image }}" alt="Main Image"></div>{%- endif -%}
+{%- if main_image %}<div><img src="https://res.cloudinary.com/dylanabbott-com/image/upload/{{ main_image }}" alt="Main Image"></div>{%- endif -%}
 
 {{ content | safe }}
 
