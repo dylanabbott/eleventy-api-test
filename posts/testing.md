@@ -7,7 +7,7 @@ tags:
 - Test
 - Cloudinary
 layout: layouts/post.njk
-main_image: https://res.cloudinary.com/dylanabbott-com/image/upload/v1634680175/https:/res.cloudinary.com/dylanabbott-com/image/upload/IMG_4711-2000-px_pmdsls.jpg
+main_image: "/v1634680969/https:/res.cloudinary.com/dylanabbott-com/image/upload/IMG_4682-2000-px_ea4gxp.jpg"
 
 ---
 I took this picture isn't it great?
