@@ -14,6 +14,8 @@ templateClass: tmpl-post
 
 {{ content | safe }}
 
+{%- if main_image %}<div><img src="https://res.cloudinary.com/dylanabbott-com/image/upload/c_fit,w_150/e_saturation:-100/{{ main_image }}" alt="thumbnail"></div>{%- endif -%}
+
 {%- if collections.posts %}
 {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
 {%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
