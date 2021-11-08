@@ -12,5 +12,6 @@ fields:
   config: {}
   label: Photo Uploads
 pages:
+- posts/03-album-test.md
 - posts/album-01.md
 - posts/tes-album-02.md
