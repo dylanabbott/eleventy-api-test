@@ -1,4 +1,13 @@
 ---
 label: Photo Album
 hide_body: false
-fields: []
+fields:
+- name: name
+  type: text
+  config:
+    required: false
+  label: Name
+- name: photo_uploads
+  type: image_gallery
+  config: {}
+  label: Photo Uploads
