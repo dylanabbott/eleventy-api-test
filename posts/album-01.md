@@ -16,5 +16,3 @@ photo_uploads:
 
 ---
 Test Photo Album
-
-![](https://res.cloudinary.com/dylanabbott-com/image/upload/v1636398489/IMG_4520-2000-px_eyirlg.jpg)![](https://res.cloudinary.com/dylanabbott-com/image/upload/v1636398472/IMG_4572-2000-px_weybcy.jpg)![](https://res.cloudinary.com/dylanabbott-com/image/upload/v1636398470/IMG_4515-2000-px_jkruuw.jpg)![](https://res.cloudinary.com/dylanabbott-com/image/upload/v1636398451/IMG_4545-2000-px_t1f808.jpg)
