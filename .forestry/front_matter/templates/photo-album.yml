@@ -11,3 +11,5 @@ fields:
   type: image_gallery
   config: {}
   label: Photo Uploads
+pages:
+- posts/album-01.md
