@@ -11,6 +11,13 @@ fields:
   type: image_gallery
   config: {}
   label: Photo Uploads
+- name: layout
+  type: text
+  config:
+    required: false
+  label: Layout
+  default: layouts/photo-album.njk
+  hidden: true
 pages:
 - posts/03-album-test.md
 - posts/album-01.md
