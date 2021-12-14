@@ -33,6 +33,7 @@
     "markdown-it-anchor": "^8.1.2"
   },
   "dependencies": {
+    "@11ty/eleventy-cache-assets": "^2.3.0",
     "eleventy-plugin-cloudinary": "^0.0.1"
   }
 }

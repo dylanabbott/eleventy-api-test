@@ -1,0 +1,7 @@
+---
+layout: layouts/home.njk
+---
+
+{% for item in cloudinary.resources -%}
+    <a href="/photo/{{ item.public_id }}/"><h1>photo</h1></a>
+{%- endfor -%}

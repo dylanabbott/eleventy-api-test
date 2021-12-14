@@ -1,0 +1,13 @@
+---
+layout: layouts/home.njk
+pagination:
+  data: cloudinary.resources
+  size: 1
+  alias: photo
+permalink: "photo/{{ photo.public_id }}/"
+---
+
+<h1>{{ photo.public_id }}</h1> 
+<img src="https://res.cloudinary.com/dylanabbott-com/image/{{photo.type}}/v{{photo.version}}/{{photo.public_id}}.{{photo.format}}">
+
+<a href="../">Back</a>
